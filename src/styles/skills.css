@@ -1,0 +1,98 @@
+/* Skills Section */
+.skills-section {
+  text-align: center;
+  background-color: #1e1e1e;
+  color: white;
+  width: 80%;
+  margin: 15px auto;
+  padding: 40px 20px;
+}
+
+.skills-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.skills-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #d3d3d3;
+}
+
+/* Skills Container */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Increased min width */
+  gap: 2rem;
+  justify-content: center;
+  max-width: 1000px; /* Increased max-width */
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Skill Card */
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem; /* Increased padding */
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Enhanced shadow */
+}
+
+.skill img {
+  width: 100px; /* Increased logo size */
+  height: 100px; /* Increased logo size */
+  margin-bottom: 1.5rem; /* Increased margin */
+  transition: transform 0.3s ease;
+}
+
+.skill:hover img {
+  transform: scale(1.1);
+}
+
+.skill p {
+  font-size: 1.2rem; /* Increased font size */
+  font-weight: bold;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjusted for tablets */
+    gap: 1.5rem;
+  }
+
+  .skill img {
+    width: 80px; /* Adjusted logo size */
+    height: 80px; /* Adjusted logo size */
+  }
+
+  .skill p {
+    font-size: 1rem; /* Adjusted font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-container {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjusted for mobile */
+    gap: 1rem;
+  }
+
+  .skill img {
+    width: 60px; /* Adjusted logo size */
+    height: 60px; /* Adjusted logo size */
+  }
+
+  .skill p {
+    font-size: 0.9rem; /* Adjusted font size */
+  }
+}
