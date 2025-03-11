@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 
-const roles = ["Full-Stack Developer", "Problem Solver", "Tech Enthusiast"];
+const roles = ["Full-Stack Developer", "Problem Solver", "Solution-Oriented", 
+  "Continuous Learner"
+];
 
 
 const HomeDetails = () => {
@@ -22,7 +24,7 @@ const HomeDetails = () => {
       {roles[currentRole]}
       </p>
       <p className="home-details-content">
-      I love building scalable, efficient, and user-friendly applications
+      Ever wondered how a perfectly crafted UI can make complex backend systems feel effortless? That’s what drives me. Currently immersed in building systems that make the invisible feel seamless."
       </p>
       <a href="#projects" className="btn">Explore My Work</a>
     </div>

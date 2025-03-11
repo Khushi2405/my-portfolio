@@ -1,6 +1,17 @@
 const ProjectsDetails = [
-    {
-      id: 1,
+  {
+    id: 1,
+    title: "Database Management System",
+    description: [
+      "Designed a Buffer Manager in Java and Maven by integrating an LRU replacement policy and a hash-based lookup system to optimize page retrieval from a binary file with 10 million+ records.",
+      "Implemented a B+ Tree indexing mechanism for fast searches on both clustered and unclustered indexes,improving query performance by up to 100x compared to sequential scans.",
+      "Wrote end-to-end and unit test cases using JUnit and Mockito, achieving 99% test coverage under various workloads.",
+    ],
+    link : "https://github.com/Khushi2405/645-Final-Project_Spring25",
+    image : "https://khushi2405.github.io/my-portfolio/assets/images/DBMS.png",
+  },  
+  {
+      id: 2,
       title: "SilentSpeak - Muted Speech Detection",
       description: [
         "SilentSpeak is a motion-based alternative for speech command recognition by leveraging IMU sensors to analyze jaw movements during speech",
@@ -11,7 +22,7 @@ const ProjectsDetails = [
       video : "https://khushi2405.github.io/my-portfolio/assets/videos/SilentSpeak.mp4",
     },
     {
-      id: 2,
+      id: 3,
       title: "Hand Gesture Recognition",
       description: [
         "Built a hand gesture recognition system using an ESP32S3 microcontroller and MPU6050 IMU sensor to predict hand gestures (left, right, up, down).",
@@ -22,7 +33,7 @@ const ProjectsDetails = [
       video : "https://khushi2405.github.io/my-portfolio/assets/videos/HandGesture.mp4",
     },
     {
-      id: 3,
+      id: 4,
       title: "Email and Message Client",
       description: [
         "Designed and developed an email and messaging mobile application using Android Studio and Java, integrating Firebase for robust database management and ensuring efficient data synchronization.",
