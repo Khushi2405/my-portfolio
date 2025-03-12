@@ -4,7 +4,7 @@ import { FaGithub, FaFileAlt, FaLinkedin } from "react-icons/fa"; // Icons
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div id = "contact" className="contact-container">
       <div className="contact-text">
         <a href="mailto:khushiigandhi2405@gmail.com">
           <h2>Start a conversation</h2>
@@ -12,7 +12,7 @@ const Contact = () => {
       </div>
       <div className="contact-links">
         <a
-          href="/assets/KHUSHI_GANDHI_RESUME.pdf"
+          href="https://khushi2405.github.io/my-portfolio/assets/Khushi_Gandhi_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -27,7 +27,7 @@ const Contact = () => {
         </a>
 
         <a
-          href="https://linkedin.com/in/khushi"
+          href="https://linkedin.com/in/khushi2405"
           target="_blank"
           rel="noopener noreferrer"
         >

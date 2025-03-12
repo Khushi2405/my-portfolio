@@ -16,7 +16,7 @@ function Navbar() {
         <span className="bar"></span>
       </div>
       <ul className={`nav-links ${isOpen ? "show" : ""}`}>
-        <li><a href="/">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experiences">Experiences</a></li>
         <li><a href="#skills">Skills</a></li>
