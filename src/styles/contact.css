@@ -1,64 +1,93 @@
-
-  .contact-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: 15px auto;
-    padding: 40px 20px;
-    flex-wrap: wrap;
-    border-radius: 25px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.274);
-  }
-  
-  .contact-text {
-    flex: 1;
-    text-align: left;
-    min-width: 250px;
-  }
-  
-  .contact-text h2 {
-    font-size: 1.5rem;
-    padding: 20px;
-    margin: 0px;
-    margin-left: 10px;
-    border-radius: 5px;
-    border: 1px solid #ffffff; /* Add border */
-  }
-  
-  .contact-text h2:hover {
-    background-color: #1ba6a1; /* Theme background color */
-    color: #ffffff; /* Text color on hover */
-    border-radius: 5px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.39);
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
 }
-  
-  .contact-links {
-    display: flex;
-    gap: 20px;
+
+.tooltip-text {
+  visibility: hidden;
+  width: 80px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 15px auto;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.274);
+}
+
+.contact-text {
+  font-family: 'Space Grotesk', sans-serif;
+  flex: 1;
+  text-align: left;
+  min-width: 250px;
+}
+
+.contact-text h2 {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin: 0px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffffff; /* Add border */
+}
+
+.contact-text h2:hover {
+  background-color: #1ba6a1; /* Theme background color */
+  color: #ffffff; /* Text color on hover */
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.39);
+}
+
+.contact-links {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-icon {
+  font-size: 2.5rem;
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-icon:hover {
+  color: #1ba6a1;
+  transform: scale(1.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
   }
-  
-  .contact-icon {
-    font-size: 2.5rem;
-    color: #ffffff;
-    transition: color 0.3s ease, transform 0.3s ease;
+
+  .contact-text {
+    text-align: center;
+    margin-bottom: 20px;
   }
-  
-  .contact-icon:hover {
-    color: #1ba6a1;
-    transform: scale(1.1);
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .contact-container {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .contact-text {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-  }
-  
+}

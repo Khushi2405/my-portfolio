@@ -1,4 +1,13 @@
 export const ExperienceDetails = [
+  {
+      role: "Software Developer Intern",
+      company: "Interactive Brokers",
+      duration: "June 2025 – Present",
+      logo: "https://s3-eu-west-1.amazonaws.com/tpd/logos/597c8ceb0000ff0005a7af84/0x0.png",
+      details: [
+        "Reduced routing complexity by building a dynamic Vue.js breadcrumb using navigation guards and route parsing, eliminating hardcoded logic across 15+ components."
+      ],
+    },
     {
       role: "Software Developer",
       company: "Deutsche India Private Limited",
