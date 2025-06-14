@@ -1,4 +1,5 @@
 .projects-section {
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -6,6 +7,10 @@
   width: 80%;
   margin: 15px auto;
   padding: 40px 20px;
+}
+
+.project-title{
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* .project-card {
@@ -91,6 +96,7 @@
 }
 
 .project-title-link {
+  font-family: 'Space Grotesk', sans-serif;
   text-decoration: none;
   color: inherit;
   display: inline-flex;

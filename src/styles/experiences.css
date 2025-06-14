@@ -1,10 +1,14 @@
 .experience-container {
   background-color: #1e1e1e;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   width: 80%;
   margin: 15px auto;
   padding: 40px 20px;
+}
+
+.experience-title{
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 h2 {
@@ -39,6 +43,7 @@ h2 {
 
 /* Title animation */
 .experience-header div h3 {
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 2rem;
   display: inline-block;
   margin-bottom: 0.1rem;

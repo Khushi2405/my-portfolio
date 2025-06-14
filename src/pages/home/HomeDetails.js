@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 
-const roles = ["Full-Stack Developer", "Problem Solver", "Solution-Oriented", 
+const roles = ["Full-Stack Developer", "Unlearner", "Synthesist", 
   "Continuous Learner"
 ];
 
@@ -24,7 +24,9 @@ const HomeDetails = () => {
       {roles[currentRole]}
       </p>
       <p className="home-details-content">
-      Ever wondered how a perfectly crafted UI can make complex backend systems feel effortless? That’s what drives me. Currently immersed in building systems that make the invisible feel seamless."
+       A Computer Science grad student at <span className = "highlight">Univeristy of Massachusetts, Amherst</span>. I love working with backend technologies like Java and Spring Boot.
+       </p>
+       <p className="home-details-content">Most importantly, I’m happiest when I have no idea what I’m doing <span className = "highlight">yet</span> and a dozen tabs open to fix that.
       </p>
       <a href="#projects" className="btn">Explore My Work</a>
     </div>

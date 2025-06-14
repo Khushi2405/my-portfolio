@@ -10,6 +10,7 @@ const skillsData = [
   { logo: 'https://khushi2405.github.io/my-portfolio/assets/logos/html5.svg' },
   { logo: 'https://khushi2405.github.io/my-portfolio/assets/logos/css3.svg' },
   { logo: 'https://khushi2405.github.io/my-portfolio/assets/logos/javascript.svg' },
+  { logo: 'https://khushi2405.github.io/my-portfolio/assets/logos/vue.svg' }
 ];
 
 const Skills = () => {
