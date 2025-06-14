@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 
 const roles = ["Full-Stack Developer", "Unlearner", "Synthesist", 
-  "Continuous Learner"
+  "Ingenious"
 ];
 
 
