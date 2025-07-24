@@ -7,7 +7,7 @@ This is a personal portfolio website created to showcase my skills, projects, an
 
 The main goal of this portfolio is to support job applications and career opportunities by providing a well-structured overview of my technical profile.
 
-## ⚙️ Tech Stack
+## ⚙️ Tech Stack Used
 
 - **React.js**  
 - **HTML5 & CSS3**  
