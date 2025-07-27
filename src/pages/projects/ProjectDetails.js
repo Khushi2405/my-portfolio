@@ -3,10 +3,10 @@ const ProjectsDetails = [
     id: 1,
     title: "IMDB Query Engine",
     description: [
-      "Reduced disk I/O overhead when retrieving pages from multiple binary files containing over 70 million records by designing a Buffer Manager using an LRU replacement policy and hash-based lookup.",
-      "Implemented a B+ Tree indexing mechanism for fast searches on both clustered and unclustered indexes,improving query performance by up to 100x compared to sequential scans.",
-      "Built a relational query executor from scratch to process records from 3 relational tables, designing scan, selection, projection, materialization, and Block Nested Loop (BNL) joins operators using a fixed execution plan",
-      "Wrote end-to-end and unit test cases using JUnit and Mockito, achieving 99% test coverage under various workloads.",
+       "Designed a relational query engine to reduce disk I/O overhead when retrieving pages from over 70 million records by using a custom buffer manager and LRU replacement policy.",
+       "Engineered a 100× query speedup through custom B+ Tree indexing mechanism supporting fast searches on both clustered and unclustered indexes.",
+       "Built a query executor from scratch to process records from 3 relational tables, designing scan, selection, projection, materialization, and Block Nested Loop (BNL) joins operators using a fixed execution plan.",
+       "Wrote end-to-end and unit test cases using JUnit and Mockito, achieving 99% test coverage under various workloads.",
     ],
     link : "https://github.com/Khushi2405/IMDB-Query-Engine",
     image : "https://khushi2405.github.io/my-portfolio/assets/images/DBMS.png",
@@ -46,3 +46,4 @@ const ProjectsDetails = [
   ];
 
 export default ProjectsDetails;
+

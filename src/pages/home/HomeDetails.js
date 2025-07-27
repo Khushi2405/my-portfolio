@@ -24,7 +24,7 @@ const HomeDetails = () => {
       {roles[currentRole]}
       </p>
       <p className="home-details-content">
-       A Computer Science grad student at <span className = "highlight">Univeristy of Massachusetts, Amherst</span>. I love working with backend technologies like Java and Spring Boot.
+       A Computer Science grad student at <span className = "highlight">Univeristy of Massachusetts, Amherst</span>. I love building scalable systems, and fascinated by how complex software and cloud infrastructure come together behind the scenes.
        </p>
        <p className="home-details-content">Most importantly, I’m happiest when I have no idea what I’m doing <span className = "highlight">yet</span> and a dozen tabs open to fix that.
       </p>

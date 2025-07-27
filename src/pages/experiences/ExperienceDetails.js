@@ -5,8 +5,10 @@ export const ExperienceDetails = [
       duration: "June 2025 – Present",
       logo: "https://s3-eu-west-1.amazonaws.com/tpd/logos/597c8ceb0000ff0005a7af84/0x0.png",
       details: [
-        "Reduced routing complexity by building a dynamic Vue.js breadcrumb using navigation guards and route parsing, eliminating hardcoded logic across 15+ components."
-      ],
+        "Rebuilt CRM front-end navigation by designing a global breadcrumb system, removing 300+ lines of legacy code and making the application easier to maintain.",
+        "Built components for dashboard widgets, enabling users to customize their workspace and view real-time data through backend APIs and database queries.",
+        "Enhanced application responsiveness by resolving 7 user-reported issues using Vue and JavaScript."
+      ]
     },
     {
       role: "Software Developer",
