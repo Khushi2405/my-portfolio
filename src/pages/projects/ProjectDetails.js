@@ -8,7 +8,7 @@ const ProjectsDetails = [
       "Designed modular system with Sentence Transformers embeddings, Gemini LLM integration, and Gradio chat interface trained on my career details and experience.",
     ],
     link: "https://github.com/Khushi2405/PersonaGPT",
-    image:"https://khushi2405.github.io/my-portfolio/assets/images/PersonaGPT.png",
+    image:"https://khushi2405.github.io/my-portfolio/assets/images/personaGPT.png",
     project_link: "https://khushi2405-personagpt.hf.space",
   },
   {
