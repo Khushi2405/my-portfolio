@@ -1,0 +1,18 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="white" xmlns="http://www.w3.org/2000/svg">
+  <!-- Speech bubble (Top-right of head) -->
+  <path d="M75 5 H105 A5 5 0 0 1 110 10 V25 A5 5 0 0 1 105 30 H85 L78 35 L80 30 H75 A5 5 0 0 1 70 25 V10 A5 5 0 0 1 75 5 Z" 
+        stroke="white" stroke-width="2" fill="none"/>
+
+  <!-- Head -->
+  <circle cx="60" cy="50" r="20" stroke="white" stroke-width="3" fill="none"/>
+
+  <!-- Eyes -->
+  <circle cx="52" cy="45" r="3" fill="white"/>
+  <circle cx="68" cy="45" r="3" fill="white"/>
+
+  <!-- Neck -->
+  <line x1="60" y1="70" x2="60" y2="75" stroke="white" stroke-width="2"/>
+
+  <!-- Body -->
+  <rect x="40" y="75" width="40" height="35" rx="10" stroke="white" stroke-width="3" fill="none"/>''
+</svg>
