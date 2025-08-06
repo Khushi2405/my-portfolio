@@ -16,6 +16,7 @@ function Navbar() {
         <span className="bar"></span>
       </div>
       <ul className={`nav-links ${isOpen ? "show" : ""}`}>
+        <li><a target="_blank" href="https://khushi2405-personagpt.hf.space" title="Ask AI anything about me">PersonaGPT</a></li>
         <li><a href="#home">Home</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experiences">Experiences</a></li>
