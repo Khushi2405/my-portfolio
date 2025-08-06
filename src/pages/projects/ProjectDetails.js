@@ -1,7 +1,7 @@
 const ProjectsDetails = [
   {
     id: 1,
-    title: "PersonaGPT — RAG-Powered Conversational Bot",
+    title: "PersonaGPT — RAG-Powered Chatbot",
     description: [
       "Built an intelligent career bot that answers professional queries on my behalf using RAG architecture with semantic search and intent classification.",
       "Implemented automated lead generation pipeline with Supabase webhooks and edge functions for personalized email follow-ups to interested recruiters.",
