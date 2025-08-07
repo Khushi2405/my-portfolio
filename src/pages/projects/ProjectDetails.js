@@ -3,9 +3,9 @@ const ProjectsDetails = [
     id: 1,
     title: "PersonaGPT — RAG-Powered Chatbot",
     description: [
-      "Built an intelligent career bot that answers professional queries on my behalf using RAG architecture with semantic search and intent classification.",
-      "Implemented automated lead generation pipeline with Supabase webhooks and edge functions for personalized email follow-ups to interested recruiters.",
-      "Designed modular system with Sentence Transformers embeddings, Gemini LLM integration, and Gradio chat interface trained on my career details and experience.",
+      "Built an intelligent career bot that answers professional queries on my behalf using RAG architecture.",
+      "Created Supabase webhooks and edge functions for personalized email follow-ups to interested recruiters.",
+      "Integrated Gemini LLM and a Gradio chat interface, fine-tuned on my career and experience for personalized responses.",
     ],
     link: "https://github.com/Khushi2405/PersonaGPT",
     image:"https://khushi2405.github.io/my-portfolio/assets/images/personaGPT.png",
