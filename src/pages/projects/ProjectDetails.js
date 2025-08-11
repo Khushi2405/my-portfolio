@@ -1,22 +1,34 @@
 const ProjectsDetails = [
   {
     id: 1,
-    title: "PersonaGPT — RAG-Powered Chatbot",
+    title: "CareerEcho - AI Career Platform",
     description: [
-      "Built an intelligent career bot that answers professional queries on my behalf using RAG architecture.",
-      "Created Supabase webhooks and edge functions for personalized email follow-ups to interested recruiters.",
-      "Integrated Gemini LLM and a Gradio chat interface, fine-tuned on my career and experience for personalized responses.",
+      "Architected an AI-driven career platform leveraging LangChain and Google Gemini Flash 2.5 to coordinate multiple specialized agents for distinct tasks such as resume parsing, content generation, and study resource creation.",
+      "Built and deployed a production-ready web app with Streamlit, integrating backend AI workflows, PDF processing, and a real-time user interface for seamless career development assistance.",
+      "Refined agent collaboration and prompt strategies, reducing latency and improving task accuracy through optimized chain design, API parameter tuning, and intelligent context management."
+    ],
+    link: "https://github.com/Khushi2405/CareerEcho/",
+    image: "https://khushi2405.github.io/my-portfolio/assets/images/careerEcho.png",
+    project_link: "https://career-echo.streamlit.app/",
+  },
+  {
+    id: 2,
+    title: "PersonaGPT — AI Powered Resume",
+    description: [
+      "Developed an AI-powered resume that answers any technical and behavioral questions based on candidate profile data.",
+      "Integrated OpenAI library with Gemini 2.0 Flash, for real-time responses along with implementing rate-limiting safeguards.",
+      "Automated follow-up by triggering Supabase edge functions via webhooks to send personalized emails upon interest detection."
     ],
     link: "https://github.com/Khushi2405/PersonaGPT",
     image:"https://khushi2405.github.io/my-portfolio/assets/images/personaGPT.png",
     project_link: "https://khushi2405-personagpt.hf.space",
   },
   {
-    id: 2,
+    id: 3,
     title: "IMDB Query Engine",
     description: [
-      "Designed a relational query engine to reduce disk I/O overhead when retrieving pages from over 70 million records by using a custom buffer manager and LRU replacement policy.",
-      "Engineered a 100× query speedup through custom B+ Tree indexing mechanism supporting fast searches on both clustered and unclustered indexes.",
+      "Designed a relational query engine to reduce disk I/O overhead for 70+ million records by developing a custom LRU-based buffer manager.",
+      "Achieved 100× query speedup by implementing a B+ Tree index to improve clustered and unclustered searches.",
       "Built a query executor from scratch to process records from 3 relational tables, designing scan, selection, projection, materialization, and Block Nested Loop (BNL) joins operators using a fixed execution plan.",
       "Wrote end-to-end and unit test cases using JUnit and Mockito, achieving 99% test coverage under various workloads.",
     ],
@@ -25,7 +37,7 @@ const ProjectsDetails = [
     image: "https://khushi2405.github.io/my-portfolio/assets/images/DBMS.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "SilentSpeak - Muted Speech Detection",
     description: [
       "SilentSpeak is a motion-based alternative for speech command recognition by leveraging IMU sensors to analyze jaw movements during speech",
@@ -38,7 +50,7 @@ const ProjectsDetails = [
       "https://khushi2405.github.io/my-portfolio/assets/videos/SilentSpeak.mp4",
   },
   {
-    id: 4,
+    id: 5,
     title: "Hand Gesture Recognition",
     description: [
       "Built a hand gesture recognition system using an ESP32S3 microcontroller and MPU6050 IMU sensor to predict hand gestures (left, right, up, down).",
