@@ -3,9 +3,9 @@ const ProjectsDetails = [
     id: 1,
     title: "CareerEcho - AI Career Platform",
     description: [
-      "Architected an AI-driven career platform leveraging LangChain and Google Gemini Flash 2.5 to coordinate multiple specialized agents for distinct tasks such as resume parsing, content generation, and study resource creation.",
-      "Built and deployed a production-ready web app with Streamlit, integrating backend AI workflows, PDF processing, and a real-time user interface for seamless career development assistance.",
-      "Refined agent collaboration and prompt strategies, reducing latency and improving task accuracy through optimized chain design, API parameter tuning, and intelligent context management."
+      "Developed an AI-powered career platform using LangChain and Google Gemini Flash 2.5 to manage specialized agents for resume parsing, content creation, and study material generation.",
+      "Built and deployed a web application with Streamlit by integrating backend AI processes with a responsive user interface to provide real-time updates.",
+      "Tested and refined various prompt strategies to maximize accuracy while minimizing token usage."
     ],
     link: "https://github.com/Khushi2405/CareerEcho/",
     image: "https://khushi2405.github.io/my-portfolio/assets/images/careerEcho.png",
