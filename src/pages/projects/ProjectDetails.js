@@ -1,30 +1,6 @@
 const ProjectsDetails = [
   {
     id: 1,
-    title: "CareerEcho - AI Career Platform",
-    description: [
-      "Developed an AI-powered career platform using LangChain and Google Gemini Flash 2.5 to manage specialized agents for resume parsing, content creation, and study material generation.",
-      "Built and deployed a web application with Streamlit by integrating backend AI processes with a responsive user interface to provide real-time updates.",
-      "Tested and refined various prompt strategies to maximize accuracy while minimizing token usage."
-    ],
-    link: "https://github.com/Khushi2405/CareerEcho/",
-    image: "https://khushi2405.github.io/my-portfolio/assets/images/careerEcho.png",
-    project_link: "https://career-echo.streamlit.app/",
-  },
-  {
-    id: 2,
-    title: "PersonaGPT — AI Powered Resume",
-    description: [
-      "Developed an AI-powered resume that answers any technical and behavioral questions based on candidate profile data.",
-      "Integrated OpenAI library with Gemini 2.0 Flash, for real-time responses along with implementing rate-limiting safeguards.",
-      "Automated follow-up by triggering Supabase edge functions via webhooks to send personalized emails upon interest detection."
-    ],
-    link: "https://github.com/Khushi2405/PersonaGPT",
-    image:"https://khushi2405.github.io/my-portfolio/assets/images/personaGPT.png",
-    project_link: "https://khushi2405-personagpt.hf.space",
-  },
-  {
-    id: 3,
     title: "IMDB Query Engine",
     description: [
       "Designed a relational query engine to reduce disk I/O overhead for 70+ million records by developing a custom LRU-based buffer manager.",
@@ -37,7 +13,7 @@ const ProjectsDetails = [
     image: "https://khushi2405.github.io/my-portfolio/assets/images/DBMS.png",
   },
   {
-    id: 4,
+    id: 2,
     title: "SilentSpeak - Muted Speech Detection",
     description: [
       "SilentSpeak is a motion-based alternative for speech command recognition by leveraging IMU sensors to analyze jaw movements during speech",
@@ -48,6 +24,30 @@ const ProjectsDetails = [
     project_link: "https://github.com/Khushi2405/SilentSpeak",
     video:
       "https://khushi2405.github.io/my-portfolio/assets/videos/SilentSpeak.mp4",
+  },
+  {
+    id: 3,
+    title: "PersonaGPT — AI Powered Resume",
+    description: [
+      "Developed an AI-powered resume that answers any technical and behavioral questions based on candidate profile data.",
+      "Integrated OpenAI library with Gemini 2.0 Flash, for real-time responses along with implementing rate-limiting safeguards.",
+      "Automated follow-up by triggering Supabase edge functions via webhooks to send personalized emails upon interest detection."
+    ],
+    link: "https://github.com/Khushi2405/PersonaGPT",
+    image:"https://khushi2405.github.io/my-portfolio/assets/images/personaGPT.png",
+    project_link: "https://khushi2405-personagpt.hf.space",
+  },
+  {
+    id: 4,
+    title: "CareerEcho - AI Career Platform",
+    description: [
+      "Developed an AI-powered career platform using LangChain and Google Gemini Flash 2.5 to manage specialized agents for resume parsing, content creation, and study material generation.",
+      "Built and deployed a web application with Streamlit by integrating backend AI processes with a responsive user interface to provide real-time updates.",
+      "Tested and refined various prompt strategies to maximize accuracy while minimizing token usage."
+    ],
+    link: "https://github.com/Khushi2405/CareerEcho/",
+    image: "https://khushi2405.github.io/my-portfolio/assets/images/careerEcho.png",
+    project_link: "https://career-echo.streamlit.app/",
   },
   {
     id: 5,
