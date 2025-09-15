@@ -22,6 +22,7 @@ function Navbar() {
         <li><a href="#experiences">Experiences</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="https://khushi2405.github.io/my-portfolio/assets/Khushi_Gandhi_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
       </ul>
     </nav>
   );
